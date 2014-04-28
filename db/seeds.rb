@@ -28,5 +28,11 @@ Video.create([
     description: "Giant robots fighting giant sea monsters",
     youtube_id: "SSNU6t0pmkw",
     user_id: 2
+  },
+  {
+    title: "Frozen",
+    description: "Cold 3D Animation",
+    youtube_id: "FLzfXQSPBOg",
+    user_id: 1
   }
   ])
