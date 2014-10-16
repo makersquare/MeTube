@@ -7,12 +7,10 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 User.create([
   {
-    name: "Taylor Smith",
-    email: "taylor@themakersquare.com"
+    name: "Taylor Smith"
   },
   {
-    name: "Mike Ornellas",
-    email: "mike@themakersquare.com"
+    name: "Mike Ornellas"
   }
   ])
 
