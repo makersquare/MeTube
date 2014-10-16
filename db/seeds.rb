@@ -36,3 +36,16 @@ Video.create([
     user_id: 1
   }
   ])
+
+Sound.create([
+  {
+    title: "Dusky - What I Never Knew (Original Mix)",
+    soundcloud_url: "https://soundcloud.com/ausmusic/dusky-what-i-never-knew",
+    user_id: 1
+  },
+  {
+    title: "Pharmakon - Pitted (Seeming Mix)",
+    soundcloud_url: "https://soundcloud.com/seeming/pharmakon-pitted-seeming-mix",
+    user_id: 2
+  }
+])
