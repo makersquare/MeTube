@@ -4,7 +4,7 @@ Metube::Application.routes.draw do
   get "/videos/new", to: "videos#new"
   get "/videos/:id", to: "videos#show"
   post "/videos" => "videos#create"
-  get "videos/:id:/edit", to: "videos#edit"
+  get "/videos/:id/edit", to: "videos#edit"
   put "/videos/:id" => "videos#update"
 
 
