@@ -49,3 +49,12 @@ Sound.create([
     user_id: 2
   }
 ])
+
+v1 = Video.create({
+  title: "Jessy Lanza - Pull My Hair Back",
+  description: "An awesome track!",
+  youtube_id: "GkGZr50rXqc",
+  user_id: 1
+})
+
+v1.comments.create(user_id: 2, content: "So dope!")
